@@ -34,3 +34,8 @@
   - Only the `date` value from the `dob` object is needed.
 - Extract concatenated first and last names into a list:
   - Combine the `first` and `last` name fields to create a full name.
+
+WagesBps_Tooltip_Explain =
+"Wages%Rev CY: " & FORMAT([Wages % Revenue], "0.0") & "% | " &
+"Wages%Rev PY: " & FORMAT([Wages % Revenue PY], "0.0") & "% — BPS = CY - PY"
+
