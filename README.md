@@ -35,8 +35,6 @@
 - Extract concatenated first and last names into a list:
   - Combine the `first` and `last` name fields to create a full name.
 
-Reason for high bps =
-"Wages%Rev CY: " & FORMAT([Wages % Revenue], "0") & "% | " &
-"Wages%Rev PY: " & FORMAT([Wages % Revenue PY], "0") & "% — BPS = CY - PY"
+
 
 
